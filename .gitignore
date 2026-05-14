@@ -4,6 +4,11 @@
 
 # Log file
 *.log
+*.dat
+.gitattributes
+mvnw
+mvnw.cmd
+opt/
 
 # BlueJ files
 *.ctxt
