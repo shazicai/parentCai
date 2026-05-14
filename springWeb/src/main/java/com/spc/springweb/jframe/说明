@@ -1,0 +1,8 @@
+通过JFrame实现即时通行的事例
+1. 创建一个JFrame窗口
+2. 在窗口中添加一个文本框和一个按钮
+3. 点击按钮时，获取文本框中的内容并显示在窗口中
+4. 使用SwingUtilities.invokeLater()方法来确保在事件分派线程中执行代码
+5. 使用JOptionPane.showMessageDialog()方法来显示消息对话框
+6. 使用JTextField.getText()方法来获取文本框中的内容
+7. 使用JButton.addActionListener()方法来添加按钮的点击事件监听器

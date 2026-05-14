@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+              http://dubbo.apache.org/schema/dubbo
+              http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+    <!--  服务消费方   -->
+    <dubbo:application name="${application.name}" qos-enable="true" qos-port="33333" qos-accept-foreign-ip="false"/>
+    <!--  此处使用zookeeper注册中心暴露服务地址  -->
+    <dubbo:registry id="register" address="${register.address}" file="${cache}"/>
+    <!--  协议和端口暴露  -->
+    <dubbo:protocol name="${name}" port="20888" />
+
+    <!-- 全局配置消费者属性 -->
+    <dubbo:consumer check="false" />
+    <!-- 消费user服务  check="false"默认为true，否则当生产者未启动是报错 No provider available., 也可以通过dubbo:consumer check="false"全局设置-->
+    <dubbo:reference registry="register" interface="com.service.springService.user.service.UserService"
+                     id="userService" retries="0" timeout="200000" version="1.0.0" check="false"/>
+
+</beans>

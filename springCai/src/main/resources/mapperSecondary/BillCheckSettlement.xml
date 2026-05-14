@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.springCai.mapper.secondaryMapper.TestUserMapperSecondary">
+	<!-- 字段			说明
+		id				主键id
+		userName		名称
+		classNum		班号
+	-->
+
+	<sql id="table">
+		test_user
+	</sql>
+
+	<sql id="BaseColumnList">
+		id,
+		userName,
+		classNum
+	</sql>
+
+	<resultMap id="BaseResultMap" type="cn.com.springCai.service.entity.testUser.vo.TestUserVo">
+		<id column="id" property="id"/>
+		<result column="userName" property="userName"/>
+		<result column="classNum" property="classNum"/>
+	</resultMap>
+
+	<!-- 新增 -->
+	<insert id="save" keyProperty="id" useGeneratedKeys="true" parameterType="cn.com.springCai.service.entity.testUser.po.TestUser">
+		INSERT INTO
+			<include refid="table"/>
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				id,
+			</if>
+			<if test="userName != null and userName != ''">
+				userName,
+			</if>
+			<if test="classNum != null and classNum != ''">
+				classNum
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				#{id,jdbcType=INTEGER },
+			</if>
+			<if test="userName != null and userName != ''">
+				#{userName,jdbcType=VARCHAR },
+			</if>
+			<if test="classNum != null and classNum != ''">
+				#{classNum,jdbcType=VARCHAR }
+			</if>
+		</trim>
+	</insert>
+	
+	<sql id="findByWhere">
+		<where>
+			<if test="id != null ">
+				id = #{id,jdbcType=INTEGER }
+			</if>
+			<if test="recordId != null ">
+				and userName = #{userName,jdbcType=VARCHAR }
+			</if>
+		</where>
+	</sql>
+
+	<!-- 数量查询 -->
+	<select id="count" resultType="integer">
+		SELECT count(1) FROM  <include refid="table" />
+		<include refid="findByWhere"/>
+	</select>
+	
+	<!-- 列表查询,支持分页 -->
+	<select id="list" resultMap="BaseResultMap">
+		select <include refid="BaseColumnList"/> from  
+		<include refid="table" />
+		<include refid="findByWhere"/>
+		order by userName
+		limit #{start} , #{pageSize}
+	</select>
+</mapper>

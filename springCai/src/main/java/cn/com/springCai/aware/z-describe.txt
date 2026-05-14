@@ -1,0 +1,3 @@
+自定义Aware，如果当user对象不能被spring注入时，
+可以采用自定义Aware的方式，使用beanPostProcessor的前置处理方法，判断此bean是否是自定的Aware类，
+如果是，则对其需要标记的对象进行赋值

@@ -1,0 +1,23 @@
+
+
+1、创建一个CryptoUtils类，声明本地方法，静态代码块加载本地库
+2、编译CryptoUtils.java，生成CryptoUtils.class文件 javac CryptoUtils.java
+3、使用javah命令生成CryptoUtils.h头文件     javah CryptoUtils                       javac -h ./jni CryptoUtils.java
+4、使用C/C++实现头文件中声明的本地方法
+5、编译C/C++源文件，生成动态库
+6、将动态库加载到Java程序中，调用本地方法
+
+具体步骤如下：
+
+1、创建一个CryptoUtils类，声明本地方法，静态代码块加载本地库
+
+```java
+public class CryptoUtils {
+    static {
+        System.loadLibrary("crypto");
+    }
+
+    public native String encrypt(String data);
+    public native String decrypt(String data);
+}
+```

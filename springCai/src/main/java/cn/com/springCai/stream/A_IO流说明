@@ -1,0 +1,73 @@
+
+流的定义：流是处理输入和输出的抽象概念
+
+流的分类：
+    1、根据数据类型可以分为 字节流和字符流
+    2、根据业务可以分为五种类型
+        2.1
+            节点流（文件节点流 FileInputStream、数组节点流 ByteArrayInputStream、管道节点流 PipedInputStream、字符串节点流 StringReader）
+            是直接与数据源交互的流，他们是I/O操作的起点或终点。
+        2.2
+            处理流（缓冲流 BufferedInputStream、转换流 InputStreamReader、数据流 DataInputStream、对象流 ObjectInputStream）
+            是对节点流的封装，用于提高I/O操作的效率或实现更高级的功能。
+            比如：字符编码流（InputStreamReader、OutputStreamWriter）
+            用于处理字符编码的转换，将字节流转换为字符流或反之。
+        2.3
+            对象流（处理序列化与反序列化，需要实现Serializable标记接口，可用户对象持久化和网络传输）
+            ObjectInputStream、ObjectOutputStream
+        2.4
+            打印流（PrintStream、PrintWriter）
+            比如System.out就是一个PrintStream对象，用于将数据输出到控制台。
+        2.5
+            回退流
+            PushbackInputStream、PushbackReader
+            用于在读取数据时，可以将数据回退到流中，以便重新读取。
+            场景：适用于需要预读字符并决定如何处理的场景（如解析器）
+
+        细说明：
+            数据流
+            DataInputStream、DataOutputStream
+            用于处理基本数据类型的输入和输出，如int、float、double等。
+
+            字符串流
+            StringReader、StringWriter
+            用于处理字符串的输入和输出。
+
+            字节流
+            ByteArrayInputStream、ByteArrayOutputStream
+            用于处理字节数组的输入和输出。
+
+            管道流
+            PipedInputStream、PipedOutputStream
+            用于在两个线程之间进行数据传输。
+
+            文件流
+            FileInputStream、FileOutputStream
+            用于处理文件的输入和输出。
+
+            网络流
+            SocketInputStream、SocketOutputStream
+            用于处理网络数据的输入和输出。
+
+            序列化流
+            ObjectOutputStream、ObjectInputStream
+            用于处理对象的序列化和反序列化。
+
+            打印流
+            PrintStream、PrintWriter
+            用于将数据输出到控制台。
+
+
+
+
+I/O模型
+    1、阻塞I/O模型（BIO Blocking I/O）
+
+    2、非阻塞I/O模型
+    3、I/O多路复用模型
+    4、信号驱动I/O模型
+    5、异步I/O模型
+
+
+
+

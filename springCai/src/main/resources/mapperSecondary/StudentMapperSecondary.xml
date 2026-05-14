@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.springCai.mapper.secondaryMapper.StudentMapperSecondary">
+	<!-- 字段			说明
+		id				ID
+		name			名称
+		address			地址
+		clazz			班级
+	-->
+
+	<sql id="table">
+		student_secondary
+	</sql>
+
+	<sql id="BaseColumnList">
+		id,
+		name,
+		address,
+		clazz
+	</sql>
+
+	<resultMap id="BaseResultMap" type="cn.com.springCai.service.entity.student.vo.StudentVo">
+		<id column="id" property="id"/>
+		<result column="name" property="name"/>
+		<result column="address" property="address"/>
+		<result column="clazz" property="clazz"/>
+	</resultMap>
+	
+	<!-- 新增 -->
+	<insert id="save" parameterType="cn.com.springCai.service.entity.student.po.Student">
+		INSERT INTO
+		<include refid="table"/>
+		(id, name, address, clazz)
+		values
+		(#{id,jdbcType=INTEGER }, #{name,jdbcType=VARCHAR }, #{address,jdbcType=VARCHAR }, #{clazz,jdbcType=VARCHAR })
+	</insert>
+	
+	<!-- 更新 -->
+	<update id="update" parameterType="cn.com.springCai.service.entity.student.po.Student">
+		update <include refid="table" />
+		<set>
+			<if test="name != null and name != ''">
+				name = #{name,jdbcType=VARCHAR },
+			</if>
+			<if test="address != null and address != ''">
+				address = #{address,jdbcType=VARCHAR },
+			</if>
+			<if test="clazz != null and clazz != ''">
+				clazz = #{clazz,jdbcType=VARCHAR }
+			</if>
+		</set>
+		where
+			id = #{id,jdbcType=INTEGER }
+	</update>
+	
+	<!-- 列表查询,支持分页 -->
+	<select id="list" resultMap="BaseResultMap" parameterType="java.lang.String">
+		select <include refid="BaseColumnList"/>
+		from student_secondary
+		where name like CONCAT('%', #{name,jdbcType=VARCHAR} ,'%')
+	</select>
+
+	<!-- id查询 -->
+	<select id="getById" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+		select <include refid="BaseColumnList"/>
+		from student_secondary
+		where id = #{id,jdbcType=INTEGER }
+	</select>
+
+	<delete id="del" parameterType="java.lang.Integer">
+		DELETE FROM student_secondary	where id = #{id,jdbcType=INTEGER },
+	</delete>
+</mapper>
