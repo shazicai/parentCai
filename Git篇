@@ -8,7 +8,7 @@ gitee：与gitHub类似，是国内搭建的基于git的代码管理仓库
     灰色：被忽略的文件，即被 .gitignore文件标记过的文件，git忽略对其管理(.gitignore文件有一定规则)
     绿色：新增文件已通过git add添加到 暂存区，但是未提交到本地仓库中，即从未commit到本地仓库
     白色：文件与本地仓库的版本一致，即文件与最新一次本地commit的内容一样
-    蓝色：文件已经被git跟踪，且文件已修改了内容，但是文件未被
+    蓝色：文件已经被git跟踪，且文件已修改了内容，但是文件未被 git add和commit
 
 git:
     本地仓库，cache缓存，gitHub/gitLib/gitEE（外部仓库）
