@@ -3,5 +3,25 @@ gitHub：是国外搭建的基于Git的代码管理仓库(这样能实现去中�
 gitLib：是一套基于Git的私服系统，可以用于搭建企业自己的git代码仓库
 gitee：与gitHub类似，是国内搭建的基于git的代码管理仓库
 
+文件颜色与说明：
+    红色：未加入版本控制，文件存在于项目中，但是未与git有交互(即git不会跟踪此文件)
+    灰色：被忽略的文件，即被 .gitignore文件标记过的文件，git忽略对其管理(.gitignore文件有一定规则)
+    绿色：新增文件已通过git add添加到 暂存区，但是未提交到本地仓库中，即从未commit到本地仓库
+    白色：文件与本地仓库的版本一致，即文件与最新一次本地commit的内容一样
+    蓝色：文件已经被git跟踪，且文件已修改了内容，但是文件未被
+
 git:
     本地仓库，cache缓存，gitHub/gitLib/gitEE（外部仓库）
+
+案例一
+删除已经添加信息，本地不删除（支持删除某一个分支的）
+    git rm --cached springWeb/tm.cmd   缓存删除tm.cmd文件
+    git commit -m "remove springWeb/tm.cmd from remote repo(keep local)"   -m是备注，提交缓存要删除某个数据，同时保持本地文件不会被删除
+    git push origin master 同步到外部仓库的master
+
+案例二
+对于误commit的数据进行回退
+    git reset --soft HEAD~1 (将数据从本地的库中删除)
+如果误操作push到远程仓库了
+    git revert HEAD
+    git push

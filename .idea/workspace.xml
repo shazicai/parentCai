@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="moyu" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2719c36b-a087-467c-aad2-f3eb1d9f7875" name="Changes" comment="添加cai">
+      <change beforePath="$PROJECT_DIR$/Git篇" beforeDir="false" afterPath="$PROJECT_DIR$/Git篇" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Iterable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/env/AbstractPropertyResolver.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/env/PropertySourcesPropertyResolver.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../maven/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2uISMbMyYkmYVS2FCzZAbEgz2Ba" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/caijinhui/IdeaProjects/project/parentCai/springCai/src/main/resources/mapper&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.13103448&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c68f0bcd97aaa24160cc44dfe4d011dd&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springCai/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/springCai/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/stream" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.springCai.test.work.erpxxl" />
+      <recent name="com.spc.springweb.jframe.moyu" />
+      <recent name="com.spc.springweb.jframe" />
+      <recent name="cn.com.springCai.test" />
+      <recent name="cn.com.springCai.test.work" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.cn.com.springCai.test.Test">
+    <configuration name="TYBMTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.springCai.test.TYBMTest" />
+      <module name="springCai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.springCai.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.springCai.test.work.erpxxl.Test" />
+      <module name="springCai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.springCai.test.work.erpxxl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.springCai.thread.ThreadDemo" />
+      <module name="springCai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.springCai.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cn.com.springCai.aop.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.springCai.aop.Test" />
+      <module name="springCai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.springCai.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cn.com.springCai.test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.springCai.test.Test" />
+      <module name="springCai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.springCai.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.cn.com.springCai.test.Test" />
+      <item itemvalue="Application.TYBMTest" />
+      <item itemvalue="Application.cn.com.springCai.aop.Test" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ThreadDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.cn.com.springCai.test.Test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TYBMTest" />
+        <item itemvalue="Application.cn.com.springCai.aop.Test" />
+        <item itemvalue="Application.ThreadDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2719c36b-a087-467c-aad2-f3eb1d9f7875" name="Changes" comment="" />
+      <created>1741934548171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741934548171</updated>
+      <workItem from="1741934550744" duration="346000" />
+      <workItem from="1741935521666" duration="978000" />
+      <workItem from="1741936542731" duration="8973000" />
+      <workItem from="1742176286704" duration="74000" />
+      <workItem from="1742176369452" duration="168000" />
+      <workItem from="1742176545864" duration="3893000" />
+      <workItem from="1742343980429" duration="1454000" />
+      <workItem from="1742381836430" duration="2264000" />
+      <workItem from="1742519943428" duration="9258000" />
+      <workItem from="1742634003163" duration="598000" />
+      <workItem from="1742775472696" duration="25000000" />
+      <workItem from="1742969528477" duration="5900000" />
+      <workItem from="1743053595387" duration="6102000" />
+      <workItem from="1743381597780" duration="4717000" />
+      <workItem from="1743573437626" duration="5790000" />
+      <workItem from="1743985303893" duration="2877000" />
+      <workItem from="1744091910939" duration="594000" />
+      <workItem from="1744245320822" duration="599000" />
+      <workItem from="1744351394163" duration="13777000" />
+      <workItem from="1744784529822" duration="3366000" />
+      <workItem from="1744787919317" duration="8377000" />
+      <workItem from="1744851021288" duration="598000" />
+      <workItem from="1744854877916" duration="13242000" />
+      <workItem from="1745195782560" duration="51000" />
+      <workItem from="1745198236117" duration="20401000" />
+      <workItem from="1745540023771" duration="857000" />
+      <workItem from="1745796617861" duration="7546000" />
+      <workItem from="1745982973100" duration="185000" />
+      <workItem from="1746750674864" duration="1618000" />
+      <workItem from="1747008949298" duration="121000" />
+      <workItem from="1747009414118" duration="598000" />
+      <workItem from="1747099788130" duration="4000" />
+      <workItem from="1747187417936" duration="1965000" />
+      <workItem from="1747271770221" duration="1913000" />
+      <workItem from="1747328225030" duration="62000" />
+      <workItem from="1747710909780" duration="1201000" />
+      <workItem from="1747731360989" duration="123000" />
+      <workItem from="1747732439895" duration="2856000" />
+      <workItem from="1748572930648" duration="1084000" />
+      <workItem from="1748596120762" duration="74000" />
+      <workItem from="1748598702043" duration="24431000" />
+      <workItem from="1749124386687" duration="2213000" />
+      <workItem from="1749428416446" duration="6463000" />
+      <workItem from="1749537396616" duration="65000" />
+      <workItem from="1749537477893" duration="13927000" />
+      <workItem from="1749606075509" duration="10277000" />
+      <workItem from="1749774847656" duration="2584000" />
+      <workItem from="1749785722838" duration="696000" />
+      <workItem from="1749794030386" duration="4071000" />
+      <workItem from="1750053353653" duration="14144000" />
+      <workItem from="1750133698906" duration="10397000" />
+      <workItem from="1750295248509" duration="597000" />
+      <workItem from="1750378288056" duration="15000" />
+      <workItem from="1750384970802" duration="9284000" />
+      <workItem from="1750647338938" duration="13923000" />
+      <workItem from="1750921552951" duration="598000" />
+      <workItem from="1750984033537" duration="9000" />
+      <workItem from="1750985428039" duration="4308000" />
+      <workItem from="1751242303880" duration="15503000" />
+      <workItem from="1751501819045" duration="26000" />
+      <workItem from="1751502194835" duration="3490000" />
+      <workItem from="1751619330684" duration="895000" />
+      <workItem from="1751848438783" duration="7636000" />
+      <workItem from="1751954244570" duration="1638000" />
+      <workItem from="1752020117734" duration="7000" />
+      <workItem from="1752020310314" duration="1217000" />
+      <workItem from="1752305389506" duration="209000" />
+      <workItem from="1752310598098" duration="1892000" />
+      <workItem from="1752538823214" duration="2849000" />
+      <workItem from="1752711083837" duration="7000" />
+      <workItem from="1752711404742" duration="5683000" />
+      <workItem from="1752797418389" duration="19000" />
+      <workItem from="1752797514952" duration="3532000" />
+      <workItem from="1753057814526" duration="35000" />
+      <workItem from="1753058007269" duration="1196000" />
+      <workItem from="1753082676474" duration="4000" />
+      <workItem from="1753174981401" duration="1656000" />
+      <workItem from="1753229812663" duration="43000" />
+      <workItem from="1753229886473" duration="3128000" />
+      <workItem from="1753417067687" duration="24000" />
+      <workItem from="1754644969759" duration="1585000" />
+      <workItem from="1754871911376" duration="48000" />
+      <workItem from="1754903728824" duration="3325000" />
+      <workItem from="1755078816438" duration="1961000" />
+      <workItem from="1755309565897" duration="37000" />
+      <workItem from="1755569093054" duration="3567000" />
+      <workItem from="1755648913800" duration="7370000" />
+      <workItem from="1755735376798" duration="8000" />
+      <workItem from="1755822389267" duration="1195000" />
+      <workItem from="1756082088934" duration="52000" />
+      <workItem from="1756361819701" duration="1730000" />
+      <workItem from="1756686726860" duration="1197000" />
+      <workItem from="1756949995048" duration="688000" />
+      <workItem from="1757061676415" duration="633000" />
+      <workItem from="1757063796244" duration="15000" />
+      <workItem from="1757314604844" duration="833000" />
+      <workItem from="1758008681148" duration="6511000" />
+      <workItem from="1758102034824" duration="2084000" />
+      <workItem from="1758160715100" duration="1779000" />
+      <workItem from="1761210271590" duration="1692000" />
+      <workItem from="1762246991950" duration="881000" />
+      <workItem from="1762328546767" duration="325000" />
+      <workItem from="1762329216772" duration="891000" />
+      <workItem from="1764737578693" duration="674000" />
+      <workItem from="1764837305924" duration="786000" />
+      <workItem from="1764849404215" duration="5439000" />
+      <workItem from="1765154513362" duration="32000" />
+      <workItem from="1765160523355" duration="5086000" />
+      <workItem from="1765250911824" duration="23000" />
+      <workItem from="1765259463498" duration="5879000" />
+      <workItem from="1765462387576" duration="1447000" />
+      <workItem from="1765758510278" duration="10000" />
+      <workItem from="1765788303101" duration="5957000" />
+      <workItem from="1765934769083" duration="600000" />
+      <workItem from="1765935389616" duration="23522000" />
+      <workItem from="1766123792005" duration="6470000" />
+      <workItem from="1766194925486" duration="7087000" />
+      <workItem from="1766469308893" duration="4181000" />
+      <workItem from="1766635622191" duration="814000" />
+      <workItem from="1766978704748" duration="3089000" />
+      <workItem from="1767572846256" duration="598000" />
+      <workItem from="1767666551347" duration="2950000" />
+      <workItem from="1767853554430" duration="5046000" />
+      <workItem from="1768185079808" duration="42381000" />
+      <workItem from="1768782488010" duration="357000" />
+      <workItem from="1768782872273" duration="28286000" />
+      <workItem from="1769148547883" duration="7254000" />
+      <workItem from="1769388621109" duration="9529000" />
+      <workItem from="1769410952340" duration="38000" />
+      <workItem from="1769411088266" duration="255000" />
+      <workItem from="1769411452769" duration="24898000" />
+      <workItem from="1769777806424" duration="73000" />
+      <workItem from="1769852511703" duration="2908000" />
+      <workItem from="1770084188150" duration="696000" />
+      <workItem from="1770085413420" duration="4000" />
+      <workItem from="1770101400913" duration="10998000" />
+      <workItem from="1770338925121" duration="4824000" />
+      <workItem from="1770623314732" duration="147000" />
+      <workItem from="1774350056295" duration="6187000" />
+      <workItem from="1774419884140" duration="2454000" />
+      <workItem from="1776072088793" duration="4067000" />
+      <workItem from="1776241163574" duration="53000" />
+      <workItem from="1776308240812" duration="2597000" />
+      <workItem from="1776645513286" duration="42000" />
+      <workItem from="1776653250040" duration="1973000" />
+      <workItem from="1776859411870" duration="3677000" />
+      <workItem from="1777427941332" duration="648000" />
+      <workItem from="1778484602370" duration="4897000" />
+      <workItem from="1778662428737" duration="10518000" />
+      <workItem from="1778743977543" duration="13000" />
+      <workItem from="1778744063909" duration="473000" />
+      <workItem from="1778744661422" duration="7074000" />
+      <workItem from="1778805670752" duration="1242000" />
+      <workItem from="1778807208639" duration="4496000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交文件">
+      <created>1778728718603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1778728718603</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交忽略配置信息">
+      <created>1778749157973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778749157974</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加cai">
+      <created>1778807795012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778807795012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交文件" />
+    <MESSAGE value="提交忽略配置信息" />
+    <MESSAGE value="添加cai" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加cai" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/org/springframework/boot/context/embedded/EmbeddedWebApplicationContext.class</url>
+          <line>84</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/service/primary/impl/StudentServiceImpl.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/myFactoryBean/MyUserFactoryBean.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/functionalInterface/FunInterTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/functionalInterface/FunInterTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/functionalInterface/FunInterTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/functionalInterface/FunInterTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>510</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>541</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>865</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>737</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>760</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>756</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>276</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>296</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>364</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>313</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java</url>
+          <line>216</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java</url>
+          <line>258</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java</url>
+          <line>274</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java</url>
+          <line>508</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/env/AbstractPropertyResolver.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/test/applicationTest/applicationContext/MyClassPathXmlApplicationContext.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/test/applicationTest/applicationContext/MyClassPathXmlApplicationContext.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;1&quot;.equals(&quot;2&quot;)" language="JAVA" />
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java</url>
+          <line>1262</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springWeb/src/main/java/com/spc/springweb/base/BaseController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;1&quot;.equals(&quot;2&quot;)" language="JAVA" />
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java</url>
+          <line>1089</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;1&quot;.equals(&quot;2&quot;)" language="JAVA" />
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/env/PropertySourcesPropertyResolver.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springWeb/src/main/java/com/spc/springweb/controller/UserController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springWeb/src/main/java/com/spc/springweb/controller/UserController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springWeb/src/main/java/com/spc/springweb/controller/UserController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/test/applicationTest/TestXmlClassApplication.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java</url>
+          <line>906</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/stream/PushBackStreamExample.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/stream/KryoTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springCai/src/main/java/cn/com/springCai/jackson/ObjectMapperTest.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8-sources.jar!/com/fasterxml/jackson/databind/type/TypeFactory.java</url>
+          <line>617</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8-sources.jar!/com/fasterxml/jackson/databind/type/TypeFactory.java</url>
+          <line>1168</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8-sources.jar!/com/fasterxml/jackson/databind/type/TypeFactory.java</url>
+          <line>1163</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
+          <line>756</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/awt/Component.java</url>
+          <line>5626</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.LinkedHashMap$Entry" memberName="key" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

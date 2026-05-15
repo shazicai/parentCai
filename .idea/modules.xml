@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parentCai.iml" filepath="$PROJECT_DIR$/parentCai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCai/springCai.iml" filepath="$PROJECT_DIR$/springCai/springCai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springService/springService.iml" filepath="$PROJECT_DIR$/springService/springService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springWeb/springWeb.iml" filepath="$PROJECT_DIR$/springWeb/springWeb.iml" />
+    </modules>
+  </component>
+</project>

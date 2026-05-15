@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="moyu">
+    <output-path>$PROJECT_DIR$/out/artifacts/moyu</output-path>
+    <root id="archive" name="moyu.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/springWeb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="com">
+        <element id="directory" name="spc">
+          <element id="directory" name="springweb">
+            <element id="directory" name="jframe">
+              <element id="directory" name="moyu">
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer$TimerTask.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer$ActivationCellRenderer.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer$ButtonCellEditor.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer$ButtonCellRenderer.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer$TimerTaskComparator.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer$3.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer$2.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer$1.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer$TimerTaskDate.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/springWeb/target/classes/com/spc/springweb/jframe/moyu/FixedActivationCountdownTimer$ActivationRecord.class" />
+              </element>
+            </element>
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
