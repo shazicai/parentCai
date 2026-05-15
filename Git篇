@@ -1,0 +1,7 @@
+git: 是本地代码版本管理工具
+gitHub：是国外搭建的基于Git的代码管理仓库(这样能实现去中心化，对多用户进行统一代码版本管理)
+gitLib：是一套基于Git的私服系统，可以用于搭建企业自己的git代码仓库
+gitee：与gitHub类似，是国内搭建的基于git的代码管理仓库
+
+git:
+    本地仓库，cache缓存，gitHub/gitLib/gitEE（外部仓库）
