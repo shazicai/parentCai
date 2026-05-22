@@ -11,7 +11,7 @@ gitee：与gitHub类似，是国内搭建的基于git的代码管理仓库
     蓝色：文件已经被git跟踪，且文件已修改了内容，但是文件未被 git add和commit
 
 git:
-    本地仓库，cache缓存，gitHub/gitLib/gitEE（外部仓库）
+    本地仓库，cache缓存，gitHub/gitLib/gitEE（外部仓库）1111
 
 案例一
 删除已经添加信息，本地不删除（支持删除某一个分支的）
